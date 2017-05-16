@@ -12,12 +12,14 @@ import {
   View
 } from 'react-native';
 import MessageFromCEO from './src/components/MessageFromCEO';
+import BookAppointment from './src/components/BookAppointment';
+import DoctorsList from './src/components/DoctorsList';
 
 
 export default class AlEmadi extends Component {
   render() {
     return (
-      <MessageFromCEO/>
+      <DoctorsList/>
     );
   }
 }

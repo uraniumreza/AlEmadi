@@ -11,11 +11,11 @@ const Header = (props) => {
 	return(
 		<View style={viewStyle}>
       <View style={leftIconStyle}>
-         <IconE name="menu" size={30} color="#000" />
+         <IconE name="menu" size={30} color="grey" />
       </View>
       <Text style={textStyle}>{props.headerText}</Text>
       <View style={rightIconStyle}>
-        <IconFA name="ellipsis-v" size={20} color="#000" />
+        <IconFA name="ellipsis-v" size={20} color="grey" />
       </View>
 		</View>
 	);
@@ -35,8 +35,10 @@ const Styles = {
 		position: 'relative',
 	},
 	textStyle: {
+    marginRight: 20,
+		fontFamily: 'Roboto_medium',
 		fontSize: 20,
-		color: "#000",
+		color: "grey",
 	},
 	leftIconStyle: {
     justifyContent: 'center',
