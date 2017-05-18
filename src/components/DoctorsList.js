@@ -22,8 +22,8 @@ class DoctorsList extends Component {
       dummyArray = [1, 2, 3, 4, 5, 6, 7, 8];
       dummyArray.map(function (obj, index) {
         collection2[index] =
-          <View>
-            <View key={index} style={Styles.containerStyle}>
+          <View key={index}>
+            <View style={Styles.containerStyle}>
               <View style={Styles.imageViewStyle}>
                 <Image
                   style={Styles.imageStyle}
